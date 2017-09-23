@@ -59,6 +59,7 @@
       ul.appendChild(list);
     }
   };
+
 //fetching films
   var grabFilms = new XMLHttpRequest();
   grabFilms.addEventListener('load', getFilms);
@@ -67,7 +68,7 @@
 
 
 
-// first request 
+// first request - ignitor
   person4Req.open('GET','https://swapi.co/api/people/4');
   person4Req.send();
 }());
